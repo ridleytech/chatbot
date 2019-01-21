@@ -1,0 +1,635 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    min-width: 0px;
+}
+
+.chatLink {
+	font-size: 11px;
+	margin-left: 5px;
+	text-decoration: underline;
+}
+
+.chatUL {
+	
+	float: left;
+}
+
+.startBtn {
+	
+	background-color: rgba(224,224,224,1.00);
+	color: rgba(0,107,202,1.00);
+	height: 30px;
+	width: 100%;
+	border: none;
+	margin-top: 10px;
+	outline: none;
+	max-width: 350px;
+}
+
+.optionBtn {
+	
+	background-color: rgba(224,224,224,1.00);
+	color: rgba(0,107,202,1.00);
+	height: 30px;
+	width: 100%;
+	border: none;
+	margin-top: 10px;
+	outline: none;
+	max-width: 350px;
+}
+
+.feedImg {
+	
+	width: 100%;
+	border-radius: 15px;
+	max-width: 250px;
+}
+
+.feedImgBottom {
+	
+	width: 100%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+.listingsContainer {
+
+	width: 100%;
+    overflow-x: scroll;
+}
+
+.listingsContent {
+
+	    width: 610px;
+}
+
+.listing {
+	
+	width: 200px;
+    float: left;
+	margin-right:2px;
+}
+
+.listingDetails {
+	
+	padding: 5px;
+	font-size: 1.25em;
+}
+
+
+.address {
+	
+	padding: 5px;
+	font-size: .6em;
+}
+
+.cost {
+	
+	padding: 5px;
+	font-size: .6em;
+	color: darkgray;
+}
+
+#inputDiv {
+    float: left;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    margin: 0px;
+    clear: both;
+    min-width: 0px;
+    border-top-color: rgb(213, 213, 213);
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+
+#senderReadStatus {
+    float: left;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(153, 153, 153);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    top: auto;
+    left: auto;
+    z-index: 15;
+    clear: none;
+    right: 5px;
+    bottom: 5px;
+}
+
+#inputTxt {
+    float: left;
+    height: 35px;
+    width: 95%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 6;
+    margin: 6px 3% 0px 3%;
+    clear: none;
+	padding-left: 10px;
+	font-size: 0.8em;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgray;
+	outline: none;
+}
+
+.senderMessage {
+    float: left;
+    height: auto;
+    width: 80%;
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 16;
+    clear: none;
+    margin: 0px 0px 0px 45px;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+#userMessage {
+    float: left;
+    height: auto;
+    width: 70%;
+    background-color: rgb(68, 132, 251);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 16;
+    clear: none;
+    margin: 0px 0px 0px 45px;
+    border-radius: 15px;
+    padding: 5px;
+    color: white;
+}
+
+.senderMessagePhoto {
+    float: left;
+    height: auto;
+    width: 70%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 16;
+    clear: none;
+    margin: 0px 0px 0px 45px;
+	border-radius: 15px;
+}
+
+
+#companyTypeDiv {
+    float: left;
+    font-size: 0.95em;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    color: rgb(130, 130, 130);
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: arial;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 25;
+    margin: 5px 0px 0px;
+    clear: both;
+    min-width: 0px;
+}
+
+#batteryDiv {
+    float: left;
+    height: 25px;
+    width: 100%;
+    background-color: rgb(0, 107, 202);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    min-width: 0px;
+    display: block;
+}
+
+#containerBG {
+    float: left;
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    clear: none;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-top: 0px;
+    border: 0.75px solid rgb(213, 213, 213);
+}
+
+#senderMessageTime {
+    float: left;
+    font-size: 0.75em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    color: rgb(130, 130, 130);
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: arial;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 18;
+    margin: 10px 0px 15px;
+    clear: none;
+    min-width: 0px;
+}
+
+#likeDiv {
+    float: left;
+    font-size: 1em;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    color: rgb(1, 1, 1);
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: arial;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 26;
+    margin: 10px 0px 0px;
+    clear: both;
+    min-width: 0px;
+}
+
+.senderDiv {
+    float: left;
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 14;
+    margin: 0px;
+    clear: none;
+    min-width: 0px;
+    padding: 5px;
+}
+
+#businessNameDiv {
+    float: left;
+    font-size: 1.2em;
+    width: 100%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    color: black;
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: tahoma;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 27;
+    margin: 0px;
+    clear: none;
+    min-width: 0px;
+}
+
+#messageDiv {
+    float: left;
+    height: 350px;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 13;
+    margin: 15px 0px 0px;
+    clear: both;
+    padding-top: 15px;
+    display: block;
+    border-top-width: 0.5px;
+    border-top-color: rgb(213, 213, 213);
+    border-top-style: solid;
+	overflow-y: auto;
+}
+
+.senderProfileImg {
+    float: left;
+    height: 80px;
+    width: 80px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 28;
+    margin: 0px;
+    clear: none;
+    padding-left: 0px;
+}
+
+#statusDIv {
+    float: left;
+    font-size: 0.75em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    letter-spacing: -0.01em;
+    text-decoration: none;
+    font-family: 'Lucida Grande';
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 34;
+    margin: 5px 0px 0px;
+    clear: both;
+}
+
+#headerInfo {
+    float: left;
+    height: 55px;
+    width: 100%;
+    background-color: rgb(0, 132, 252);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 31;
+    min-width: 0px;
+    display: block;
+}
+
+#companyInfo {
+    float: left;
+    height: 80px;
+    width: 260px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 23;
+    margin: 25px 0px 0px 0%;
+    clear: none;
+    padding-left: 10px;
+    padding-top: 0px;
+    display: block;
+}
+
+#companyImage {
+    float: left;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 24;
+    clear: none;
+    display: block;
+    margin: 25px 0px 0px 15px;
+    padding-left: 0px;
+}
+
+#contentDiv {
+    float: left;
+    height: auto;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 22;
+    margin-top: 2px;
+    margin-left: 0%;
+    clear: both;
+    min-width: 0px;
+    display: block;
+}
+
+#companyNameTxt {
+    float: left;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: 'Lucida Grande';
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 35;
+    margin: 0px;
+    clear: none;
+}
+
+#companyStatus {
+    float: left;
+    height: auto;
+    width: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 33;
+    margin: 10px 0px 0px 5px;
+    clear: none;
+    padding: 0px 0px 0px 10px;
+    display: block;
+}
+
+#senderTxt {
+    float: left;
+    font-size: 0.8em;
+    width: 95%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.25em;
+    margin: 5px;
+    clear: none;
+    min-height: 30px;
+    min-width: 0px;
+}
+
+.userDiv {
+    float: left;
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 14;
+    margin: 0px 0px 0px 0%;
+    clear: both;
+    min-width: 0px;
+    display: block;
+    padding: 5px;
+}
+
+#userMessageTime {
+    float: left;
+    font-size: 0.75em;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    color: rgb(130, 130, 130);
+    font-style: normal;
+    letter-spacing: normal;
+    text-decoration: none;
+    font-family: arial;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 18;
+    margin: 10px 0px 15px;
+    clear: none;
+    min-width: 0px;
+}
+
+
+
+#userTxt {
+    float: left;
+    font-size: 0.8em;
+    width: 95%;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1.25em;
+    margin: 5px;
+    clear: none;
+    min-height: 30px;
+    min-width: 0px;
+}
+
+#userReadStatus {
+    float: left;
+    height: 20px;
+    width: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    top: auto;
+    left: auto;
+    z-index: 15;
+    clear: none;
+    right: 5px;
+    bottom: 5px;
+    background-color: rgb(153, 153, 153);
+}
+
+#senderProfileImage {
+    float: left;
+    height: 100%;
+    margin: 0px;
+    clear: none;
+    width: 40px;
+    min-height: 0px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+#senderIcon {
+    float: left;
+    height: 40px;
+    width: 40px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 17;
+    clear: none;
+    min-height: 0px;
+}
+
+#iconsPlaceholder {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 10px;
+    left: 63.055556%;
+    right: 34px;
+}
+
+#backArrow {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 15px 0px 0px 15px;
+    clear: none;
+    color: rgb(0, 0, 0);
+}
+
+#image {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0px 0px;
+    clear: none;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+}
+
+#battery-icons {
+    float: left;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: auto;
+    right: 5px;
+    bottom: auto;
+}
+

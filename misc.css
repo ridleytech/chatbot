@@ -1,0 +1,114 @@
+#playerContent {
+	height: 100%;
+}
+
+..jwplayer.jw-flag-aspect-mode {
+	
+	height:100%; important!
+}
+
+.jwplayer.jw-skin-myskin .jw-display-icon-container {
+    
+	height:100%; important!
+}
+
+.videoPlaceholder {
+
+	width: 100%;
+	height: 100%;
+}
+
+#feedTxt {
+    float: left;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: both;
+    width: 100%;
+	padding: 10px;
+	overflow-y:scroll;
+	
+}
+
+.userDiv {
+	
+	min-height: 25px;
+	margin-bottom: 5px;
+}
+
+.modDiv {
+	
+	min-height: 25px;
+	margin-bottom: 5px;
+	color: blue; important!
+}
+
+#popupBox {
+	
+	display: none;
+	width: 100px;
+	height: 150px;
+	background-color: #D5D5D5;
+	position: relative;
+}
+
+.timeTxt {
+	
+	color: #999797;
+	font-size: 13px;
+	margin-right: 5px;
+}
+
+.nameTxt {
+	
+	color: #686868;
+	font-size: 13px;
+	margin-right: 5px;
+	font-weight: 600;
+}
+
+.messageTxt {
+	
+	color: #000;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.messageTxt a {
+	
+	text-decoration: underline;
+	color: blue;
+}
+
+#chatInput {
+	
+	width: 100%;
+	height: 100%;
+	padding-left: 10px;
+	background-color: transparent;
+	
+		
+	border-left-style: 0x solid;
+    border-left-color: transparent;
+	
+	border-right-style: 0x solid;
+    border-right-color: transparent;
+	
+	border-top: 0x solid;
+    border-top-color: transparent;
+	
+	border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(150, 149, 149);
+	
+	font-size: 14px;
+
+}
+
+#chatTxt {
+	
+	background-color: transparent;
+	outline: 0;
+	border: none;
+		
+}

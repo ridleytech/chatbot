@@ -1,0 +1,349 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#Forgot_Password_ {
+    float: left;
+    font-size: 0.75em;
+    width: 35.21%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    color: rgb(76, 76, 76);
+    font-style: normal;
+    letter-spacing: 0.065em;
+    text-decoration: none;
+    font-family: 'Myriad Pro';
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    margin-top: 16px;
+    margin-left: 32.428857%;
+    clear: both;
+}
+
+#registerLbl {
+    float: left;
+    font-size: 0.75em;
+    width: 35.21%;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.5em;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    margin-top: 21px;
+    margin-left: 32.428857%;
+    clear: both;
+}
+
+#textspan {
+    float: none;
+    font-size: 1.3125em;
+    line-height: 1em;
+    color: rgb(76, 76, 76);
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.065em;
+    text-decoration: none;
+    font-family: 'Myriad Pro';
+}
+
+#textspan1 {
+    float: none;
+    font-size: 1.3125em;
+    line-height: 1em;
+    color: rgb(231, 231, 231);
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.065em;
+    text-decoration: none;
+    font-family: 'Myriad Pro';
+}
+
+#textspan2 {
+    float: none;
+    font-size: 1.3125em;
+    line-height: 1em;
+    color: rgb(244, 84, 5);
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0.065em;
+    text-decoration: none;
+    font-family: 'Myriad Pro';
+}
+
+#submitBtn {
+    float: left;
+    height: 40px;
+    font-size: 1em;
+    margin-left: 32.428857%;
+    margin-top: 15px;
+    clear: both;
+    width: 35.209316%;
+    margin-right: 0%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-top-color: rgb(170, 170, 170);
+    border-right-color: rgb(170, 170, 170);
+    border-bottom-color: rgb(170, 170, 170);
+    border-left-color: rgb(170, 170, 170);
+    background-color: rgb(18, 212, 197);
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    color: rgb(255, 255, 255);
+}
+
+#userameDiv {
+    float: left;
+    height: 40px;
+    display: block;
+    text-align: left;
+    margin-left: 32.428857%;
+    margin-top: 50px;
+    clear: both;
+    width: 35.21%;
+}
+
+#usernameTxt {
+    float: none;
+    height: 40px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+}
+
+#text {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#passwordDiv {
+    float: left;
+    height: 40px;
+    display: block;
+    text-align: left;
+    clear: both;
+    width: 35.21%;
+    margin-top: 15px;
+    margin-right: 0%;
+    margin-left: 32.428857%;
+    padding-left: 0px;
+}
+
+#text1 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#passwordTxt {
+    float: none;
+    height: 40px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+}
+
+#headerDiv {
+    float: left;
+    height: 70px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    display: block;
+    background-color: rgb(236, 238, 242);
+}
+
+#box {
+    float: left;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 20px;
+    clear: none;
+    width: 45%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 900px) {
+    #registerLbl {
+        width: 65%;
+        clear: both;
+        margin-top: 25px;
+        margin-left: 17.207251%;
+        line-height: 1.5em;
+        font-size: 0.75em;
+    }
+
+    #Forgot_Password_ {
+        width: 65%;
+        clear: both;
+        margin-top: 16px;
+        margin-left: 17.207251%;
+        font-size: 0.75em;
+    }
+
+    #submitBtn {
+        width: 65%;
+        margin-top: 15px;
+        margin-left: 17.207251%;
+        clear: both;
+        border-bottom-width: 1px;
+        background-color: rgb(18, 212, 197);
+    }
+
+    #passwordDiv {
+        width: 65%;
+        margin-left: 17.205056%;
+        margin-top: 14px;
+        clear: both;
+    }
+
+    #userameDiv {
+        width: 65%;
+        margin-top: 50px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 17.198473%;
+        clear: both;
+    }
+
+    #usernameTxt {
+        padding-left: 10px;
+        color: rgb(68, 68, 68);
+    }
+
+    #passwordTxt {
+        padding-left: 10px;
+        color: rgb(68, 68, 68);
+    }
+
+    #headerDiv {
+        float: left;
+        height: 70px;
+        margin-left: 0%;
+        margin-top: 0px;
+        clear: none;
+        width: 100%;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    #registerLbl {
+        line-height: 1.5em;
+    }
+
+    #submitBtn {
+        margin-top: 17px;
+        margin-left: 17.209052%;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #registerLbl {
+        margin-top: 24px;
+        margin-left: 5%;
+        clear: both;
+        width: 90%;
+        font-size: 0.65em;
+        line-height: 1.5em;
+        padding-left: 17.21px;
+    }
+
+    #Forgot_Password_ {
+        margin-top: 16px;
+        margin-left: 5%;
+        clear: both;
+        width: 90%;
+        font-size: 0.65em;
+        padding-left: 17.21px;
+    }
+
+    #submitBtn {
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 5%;
+        clear: both;
+        padding-left: 17.21px;
+        width: 90%;
+    }
+
+    #userameDiv {
+        height: 35px;
+        margin-top: 50px;
+        margin-left: 5%;
+        clear: both;
+        width: 90%;
+    }
+
+    #passwordDiv {
+        height: 35px;
+        margin-top: 9.625px;
+        margin-left: 5%;
+        clear: both;
+        width: 90%;
+    }
+
+    #passwordTxt {
+        height: 35px;
+    }
+
+    #usernameTxt {
+        height: 35px;
+    }
+}
+

@@ -1,0 +1,345 @@
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+}
+
+#input {
+    float: left;
+    height: 42px;
+    font-size: 1em;
+    margin-left: 32.428857%;
+    margin-top: 15px;
+    clear: both;
+    width: 35.209316%;
+    margin-right: 0%;
+    border-top-color: rgb(170, 170, 170);
+    border-right-color: rgb(170, 170, 170);
+    border-bottom-color: rgb(170, 170, 170);
+    border-left-color: rgb(170, 170, 170);
+    background-color: rgb(18, 212, 197);
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    display: block;
+    margin-bottom: 0px;
+}
+
+#firstname {
+    float: left;
+    height: 40px;
+    display: block;
+    text-align: left;
+    margin-left: 32.428857%;
+    margin-top: 20px;
+    clear: both;
+    width: 35.21%;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+#firstname1 {
+    float: none;
+    height: 40px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+}
+
+#text1 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#email {
+    float: left;
+    height: 40px;
+    display: block;
+    text-align: left;
+    margin-left: 32.428857%;
+    margin-top: 20px;
+    clear: both;
+    width: 35.21%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#text2 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#email1 {
+    float: none;
+    height: 40px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+}
+
+#password {
+    float: left;
+    height: 40px;
+    display: block;
+    text-align: left;
+    clear: both;
+    width: 35.21%;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 32.428857%;
+    margin-bottom: 0px;
+}
+
+#text3 {
+    float: none;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-left: 0em;
+    padding-right: 0em;
+    display: none;
+}
+
+#password1 {
+    float: none;
+    height: 40px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    font-size: 1em;
+    display: block;
+    width: 100%;
+}
+
+#text {
+    float: left;
+    font-size: 1.5em;
+    width: 35.321344%;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1em;
+    margin-left: 32.428857%;
+    margin-top: 50px;
+    clear: both;
+    min-height: 0px;
+    color: rgb(76, 76, 76);
+    margin-right: 0%;
+    margin-bottom: 0px;
+}
+
+#headerDiv {
+    float: left;
+    height: 70px;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    display: block;
+    background-color: rgb(236, 238, 242);
+}
+
+#box {
+    float: left;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 20px;
+    clear: none;
+    width: 45%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 900px) {
+    #input {
+        width: 65%;
+        margin-top: 15px;
+        margin-left: 17.207251%;
+        clear: both;
+        color: rgb(255, 255, 255);
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        background-color: rgb(18, 212, 197);
+        height: 40px;
+    }
+
+    #firstname {
+        width: 65%;
+        margin-left: 17.198473%;
+        margin-top: 40px;
+        clear: both;
+    }
+
+    #email {
+        width: 65%;
+        margin-left: 17.202862%;
+        margin-top: 15px;
+        clear: both;
+        padding-top: 0px;
+    }
+
+    #password {
+        width: 65%;
+        margin-left: 17.202862%;
+        margin-top: 15px;
+        clear: both;
+        padding-top: 0px;
+    }
+
+    #text {
+        margin-top: 50px;
+        margin-left: 17.058023%;
+        clear: both;
+        width: 65%;
+        text-align: center;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        height: 25px;
+        min-height: 0px;
+    }
+
+    #firstname1 {
+        padding-left: 10px;
+    }
+
+    #email1 {
+        margin-left: 0px;
+        padding-left: 10px;
+    }
+
+    #password1 {
+        padding-left: 10px;
+    }
+
+    #headerDiv {
+        float: left;
+        height: 70px;
+        margin-left: 0%;
+        margin-top: 0px;
+        clear: none;
+        width: 100%;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    #input {
+        margin-top: 17px;
+        margin-left: 17.209052%;
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #input {
+        height: 40px;
+        margin-top: 15px;
+        margin-left: 5%;
+        clear: both;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        width: 90%;
+    }
+
+    #firstname {
+        height: 35px;
+        margin-top: 40px;
+        margin-left: 5%;
+        clear: both;
+        width: 90%;
+    }
+
+    #firstname1 {
+        height: 35px;
+    }
+
+    #email {
+        height: 35px;
+        margin-top: 15px;
+        margin-left: 5%;
+        clear: both;
+        width: 90%;
+    }
+
+    #email1 {
+        height: 35px;
+    }
+
+    #password {
+        height: 35px;
+        margin-top: 15px;
+        margin-left: 5%;
+        clear: both;
+        width: 90%;
+    }
+
+    #password1 {
+        height: 35px;
+    }
+
+    #text {
+        margin-top: 50px;
+        margin-left: 17.065047%;
+        clear: both;
+        font-size: 1.25em;
+        height: auto;
+        min-height: 0px;
+    }
+}
+
